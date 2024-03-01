@@ -32,7 +32,6 @@ library(tidyverse)
 library(lubridate)
 library(neon4cast)
 library(tidymodels)
-library(earth)
 
 set.seed(215)
 
