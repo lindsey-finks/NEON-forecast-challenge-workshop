@@ -84,7 +84,7 @@ noaa_past_mean <- noaa_past |>
 
 ```{r get-NOAA-future, message = F}
 forecast_date <- Sys.Date() 
-noaa_date <- forecast_date - days(1)
+noaa_date <- forecast_date - days(2)
 
 noaa_future_s3 <- neon4cast::noaa_stage2(start_date = as.character(noaa_date))
 variables <- c("air_temperature", "relative_humidity", "precipitation_flux")
